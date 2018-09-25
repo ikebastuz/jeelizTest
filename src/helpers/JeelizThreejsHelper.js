@@ -1,7 +1,7 @@
+import * as THREE from 'three';
 /*
 	Helper for Three.js
 */ 
-"use strict";
 
 THREE.JeelizHelper=(function(){
 	//internal settings
@@ -277,3 +277,5 @@ THREE.JeelizHelper=(function(){
 	}
 	return that;
 })();
+
+export default THREE;

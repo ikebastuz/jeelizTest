@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
-import { initApp } from './apps/comedyGlasses';
-//import { initApp } from './apps/cube';
+// import { initApp } from './apps/comedyGlasses/comedyGlasses';
+import { initApp } from './apps/faceTrack';
 
 class App extends Component {
   componentDidMount(){

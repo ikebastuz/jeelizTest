@@ -1,5 +1,4 @@
-"use strict";
-
+import JEEFACEFILTERAPI from '../dist/jeelizFacePatched';
 /*
 Use : JEEFACEFILTERAPI.Canvas2DDisplay(spec) where spec is the returned object of the initialization function (callbackReady)
 Return an object width these properties :
@@ -129,3 +128,5 @@ JEEFACEFILTERAPI.Canvas2DDisplay=function(spec){
         }
     }; //end Canvas2DDisplay return value
 } //end JEEFACEFILTERAPI.Canvas2DDisplay()
+
+export default JEEFACEFILTERAPI;

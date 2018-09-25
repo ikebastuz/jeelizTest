@@ -1,3 +1,4 @@
+import JEEFACEFILTERAPI from '../dist/jeelizFacePatched';
 /*
 This helper can help for :
 * adjusting the canvas resolution to the good size -> this is crucial to
