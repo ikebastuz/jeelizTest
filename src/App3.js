@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { initApp } from './apps/comedyGlasses/comedyGlasses';
+import { initApp } from './apps/faceTrack';
 
-class App extends Component {
+class App3 extends Component {
   componentDidMount(){
     initApp();
   }
@@ -15,4 +15,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App3;
